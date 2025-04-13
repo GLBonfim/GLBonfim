@@ -1,16 +1,54 @@
-## Hi there 👋
+# 👋 Hi there, I'm Guilherme Bonfim
 
-<!--
-**GLBonfim/GLBonfim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💡 Java development student focused on backend  
+📚 Currently learning Java, Spring Boot, and Databases  
+💼 Looking for my first opportunity as a Junior Java Developer  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Technologies & Tools
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)
+
+---
+
+## 📘 Currently Learning
+
+- ☕ Java & Object-Oriented Programming (OOP)
+- 🌱 Spring Boot (RESTful APIs)
+- 🗃️ SQL and Database Design (with JPA)
+- 🧠 Data Structures
+- 💻 Git & GitHub for version control
+
+---
+
+## 📈 GitHub Stats
+
+![Guilherme's GitHub stats](https://github-readme-stats.vercel.app/api?username=GLBonfim&show_icons=true&theme=radical)
+
+---
+
+## 📫 Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/glbonfim/)
+[![Instagram](https://img.shields.io/badge/@onloreto13-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/onloreto13)
+
+---
+
+## 💼 Project Portfolio
+
+✨ New Java projects coming soon!  
+Currently working on simple APIs and systems to improve my skills.
+
+---
+
+## 🏆 GitHub Trophies
+
+![trophy](https://github-profile-trophy.vercel.app/?username=GLBonfim&theme=gruvbox)
+
+> “The best way to learn is by building.” – Guilherme Bonfim 🚀
