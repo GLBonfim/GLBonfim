@@ -30,6 +30,8 @@
 ## 📈 GitHub Stats
 
 ![Guilherme's GitHub stats](https://github-readme-stats.vercel.app/api?username=GLBonfim&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GLBonfim&show_icons=true&theme=radical&cache_seconds=60)
+
 
 ---
 
