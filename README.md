@@ -29,12 +29,16 @@
 
 ## 📈 GitHub Stats
 
-![Visitas ao Perfil](https://komarev.com/ghpvc/?username=GLBonfim&color=brightgreen)
-![Repositórios](https://img.shields.io/github/repos/GLBonfim?style=plastic)
-![Commits](https://img.shields.io/github/commit-activity/y/GLBonfim?style=plastic)
-![Estrelas](https://img.shields.io/github/stars/GLBonfim?style=plastic)
-![Forks](https://img.shields.io/github/forks/GLBonfim?style=plastic)
-![Linguagem Principal](https://img.shields.io/github/languages/top/GLBonfim?style=plastic)
+| Estatísticas | Quantidade |
+|--------------|------------|
+| 👀 **Visitas ao Perfil** | ![Visitas ao Perfil](https://komarev.com/ghpvc/?username=GLBonfim&color=brightgreen) |
+| 📂 **Repositórios** | ![Repositórios](https://img.shields.io/github/repos/GLBonfim?style=plastic) |
+| 📊 **Commits no Último Ano** | ![Commits](https://img.shields.io/github/commit-activity/y/GLBonfim?style=plastic) |
+| ⭐ **Estrelas** | ![Estrelas](https://img.shields.io/github/stars/GLBonfim?style=plastic) |
+| 🍴 **Forks** | ![Forks](https://img.shields.io/github/forks/GLBonfim?style=plastic) |
+| 💻 **Linguagem Principal** | ![Linguagem Principal](https://img.shields.io/github/languages/top/GLBonfim?style=plastic) |
+
+
 
 
 
