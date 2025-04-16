@@ -1,33 +1,26 @@
 name: Update README Stats
 
 on:
+  schedule:
+    - cron: "0 * * * *"  # A cada hora
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 0 * * *'  # Executa todos os dias à meia-noite
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
 
-      - name: Update README stats
-        run: |
-          echo "Updating README with dynamic stats"
-          curl -s https://api.github.com/users/GLBonfim | jq .public_repos > repo_count.txt
-          curl -s https://api.github.com/users/GLBonfim | jq .followers > followers_count.txt
-          curl -s https://api.github.com/users/GLBonfim | jq .following > following_count.txt
-          
-          # Atualizar README.md
-          sed -i "s/Repos [0-9]* /Repos $(cat repo_count.txt) /" README.md
-          sed -i "s/Followers [0-9]* /Followers $(cat followers_count.txt) /" README.md
-          sed -i "s/Following [0-9]* /Following $(cat following_count.txt) /" README.md
-          
-          # Commitar as mudanças e atualizar o repositório
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git commit -am "Update README stats automatically"
-          git push
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Update README with latest stats
+      run: |
+        curl -s https://raw.githubusercontent.com/GLBonfim/GLBonfim/main/README.md > README.md
+        curl -s https://github-readme-stats.vercel.app/api?username=GLBonfim&show_icons=true&theme=radical&cache_seconds=3600 > temp_stats.svg
+        curl -s https://github-readme-stats.vercel.app/api/top-langs/?username=GLBonfim&layout=compact&theme=radical > temp_toplangs.svg
+        sed -i '/GitHub Stats/ {r temp_stats.svg' -e 'd}' README.md
+        sed -i '/Top Langs/ {r temp_toplangs.svg' -e 'd}' README.md
+        git commit -am "Update README with stats"
+        git push
