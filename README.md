@@ -29,17 +29,7 @@
 
 ## 📈 GitHub Stats
 
-| Estatísticas | Quantidade |
-|--------------|------------|
-| 👀 **Visitas ao Perfil** | ![Visitas ao Perfil](https://komarev.com/ghpvc/?username=GLBonfim&color=brightgreen) |
-| 📂 **Repositórios** | ![Repositórios](https://img.shields.io/github/repos/GLBonfim?style=plastic) |
-| 📊 **Commits no Último Ano** | ![Commits](https://img.shields.io/github/commit-activity/y/GLBonfim?style=plastic) |
-| ⭐ **Estrelas** | ![Estrelas](https://img.shields.io/github/stars/GLBonfim?style=plastic) |
-| 🍴 **Forks** | ![Forks](https://img.shields.io/github/forks/GLBonfim?style=plastic) |
-| 💻 **Linguagem Principal** | ![Linguagem Principal](https://img.shields.io/github/languages/top/GLBonfim?style=plastic) |
-
-
-
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GLBonfim&show_icons=true&theme=radical&cache_seconds=60)
 
 
 ---
@@ -61,5 +51,4 @@ Currently working on simple APIs and systems to improve my skills.
 ## 🏆 GitHub Trophies
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=GLBonfim&theme=gruvbox)
-
 > “The best way to learn is by building.” – Guilherme Bonfim 🚀
