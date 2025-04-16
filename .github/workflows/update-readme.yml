@@ -20,8 +20,9 @@ jobs:
         curl -s https://raw.githubusercontent.com/GLBonfim/GLBonfim/main/README.md > README.md
         curl -s https://github-readme-stats.vercel.app/api?username=GLBonfim&show_icons=true&theme=radical&cache_seconds=3600 > temp_stats.svg
         curl -s https://github-readme-stats.vercel.app/api/top-langs/?username=GLBonfim&layout=compact&theme=radical > temp_toplangs.svg
-        sed -i '/GitHub Stats/ {r temp_stats.svg' -e 'd}' README.md
-        sed -i '/Top Langs/ {r temp_toplangs.svg' -e 'd}' README.md
+        # Inserir os arquivos SVG nos lugares corretos do README.md
+        sed -i '/GitHub Stats/ {r temp_stats.svg}' README.md
+        sed -i '/Top Langs/ {r temp_toplangs.svg}' README.md
         git add README.md temp_stats.svg temp_toplangs.svg  # Adiciona os arquivos para o commit
         git commit -am "Update README with stats"
         git push
