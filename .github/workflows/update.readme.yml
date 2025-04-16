@@ -1,0 +1,26 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # A cada hora
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Update README with latest stats
+      run: |
+        curl -s https://raw.githubusercontent.com/GLBonfim/GLBonfim/main/README.md > README.md
+        curl -s https://github-readme-stats.vercel.app/api?username=GLBonfim&show_icons=true&theme=radical&cache_seconds=3600 > temp_stats.svg
+        curl -s https://github-readme-stats.vercel.app/api/top-langs/?username=GLBonfim&layout=compact&theme=radical > temp_toplangs.svg
+        sed -i '/GitHub Stats/ {r temp_stats.svg' -e 'd}' README.md
+        sed -i '/Top Langs/ {r temp_toplangs.svg' -e 'd}' README.md
+        git commit -am "Update README with stats"
+        git push
