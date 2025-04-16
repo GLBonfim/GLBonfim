@@ -29,8 +29,12 @@
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GLBonfim&show_icons=true&theme=radical&cache_seconds=60)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GLBonfim&layout=compact&theme=radical)
+![Visitas ao Perfil](https://komarev.com/ghpvc/?username=GLBonfim&color=brightgreen)
+![Repositórios](https://img.shields.io/github/repos/GLBonfim?style=plastic)
+![Commits](https://img.shields.io/github/commit-activity/y/GLBonfim?style=plastic)
+![Estrelas](https://img.shields.io/github/stars/GLBonfim?style=plastic)
+![Forks](https://img.shields.io/github/forks/GLBonfim?style=plastic)
+![Linguagem Principal](https://img.shields.io/github/languages/top/GLBonfim?style=plastic)
 
 
 
