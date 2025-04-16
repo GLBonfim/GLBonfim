@@ -15,24 +15,13 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v2
 
-    - name: Download README.md
-      run: curl -s https://raw.githubusercontent.com/GLBonfim/GLBonfim/main/README.md > README.md
-
-    - name: Download GitHub Stats and Top Languages
+    - name: Update README with latest stats
       run: |
+        curl -s https://raw.githubusercontent.com/GLBonfim/GLBonfim/main/README.md > README.md
         curl -s https://github-readme-stats.vercel.app/api?username=GLBonfim&show_icons=true&theme=radical&cache_seconds=3600 > temp_stats.svg
         curl -s https://github-readme-stats.vercel.app/api/top-langs/?username=GLBonfim&layout=compact&theme=radical > temp_toplangs.svg
-
-    - name: Update README with new stats
-      run: |
-        # Substituir a seção de GitHub Stats e Top Langs no README
-        awk '/GitHub Stats/{print; system("cat temp_stats.svg"); next} /Top Langs/{print; system("cat temp_toplangs.svg"); next}1' README.md > tempREADME.md
-        mv tempREADME.md README.md
-
-    - name: Commit and Push changes
-      run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
-        git add README.md
-        git commit -m "Update README with latest stats"
+        sed -i '/GitHub Stats/ {r temp_stats.svg' -e 'd}' README.md
+        sed -i '/Top Langs/ {r temp_toplangs.svg' -e 'd}' README.md
+        git add README.md temp_stats.svg temp_toplangs.svg  # Adiciona os arquivos para o commit
+        git commit -am "Update README with stats"
         git push
