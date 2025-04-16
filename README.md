@@ -53,5 +53,4 @@ Currently working on simple APIs and systems to improve my skills.
 ## 🏆 GitHub Trophies
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=GLBonfim&theme=gruvbox)
-
 > “The best way to learn is by building.” – Guilherme Bonfim 🚀
