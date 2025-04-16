@@ -1,0 +1,33 @@
+name: Update README Stats
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'  # Executa todos os dias à meia-noite
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update README stats
+        run: |
+          echo "Updating README with dynamic stats"
+          curl -s https://api.github.com/users/GLBonfim | jq .public_repos > repo_count.txt
+          curl -s https://api.github.com/users/GLBonfim | jq .followers > followers_count.txt
+          curl -s https://api.github.com/users/GLBonfim | jq .following > following_count.txt
+          
+          # Atualizar README.md
+          sed -i "s/Repos [0-9]* /Repos $(cat repo_count.txt) /" README.md
+          sed -i "s/Followers [0-9]* /Followers $(cat followers_count.txt) /" README.md
+          sed -i "s/Following [0-9]* /Following $(cat following_count.txt) /" README.md
+          
+          # Commitar as mudanças e atualizar o repositório
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -am "Update README stats automatically"
+          git push
