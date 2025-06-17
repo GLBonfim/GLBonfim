@@ -29,6 +29,15 @@
 ![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)
 
 ---
+## 📘 Currently Learning
+
+- ☕ Java & Object-Oriented Programming (OOP)
+- 🌱 Spring Boot (RESTful APIs)
+- 🗃️ SQL and Database Design (with JPA)
+- 🧠 Data Structures
+- 💻 Git & GitHub for version control
+
+---
 
 ## 🔭 Goals
 
@@ -36,6 +45,14 @@
 - Explore modern back-end and front-end frameworks  
 - Build real projects and a portfolio to boost my career  
 - Share knowledge and collaborate in open source communities
+
+---
+## 📈 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GLBonfim&show_icons=true&theme=radical&cache_seconds=60)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GLBonfim&layout=compact&theme=radical)
+
+
 
 ---
 
