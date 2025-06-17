@@ -11,13 +11,7 @@
 
 ---
 
-## 🚀 Current Status
 
-🎯 Deeply studying **Java** — the language of a robust and scalable future.  
-💡 Hands-on experience with **HTML5**, **CSS3**, and **JavaScript (basic)**.  
-🔭 Building solid foundations for a complete development arsenal.
-
----
 
 ## 🚀 Technologies & Tools
 
@@ -27,6 +21,13 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)
+
+---
+## 🚀 Current Status
+
+🎯 Deeply studying **Java** — the language of a robust and scalable future.  
+💡 Hands-on experience with **HTML5**, **CSS3**, and **JavaScript (basic)**.  
+🔭 Building solid foundations for a complete development arsenal.
 
 ---
 ## 📘 Currently Learning
