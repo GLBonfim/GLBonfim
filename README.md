@@ -19,14 +19,14 @@
 
 ---
 
-## 💻 Tech Stack
+## 🚀 Technologies & Tools
 
-<div align="center">
-  <img alt="Java" src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
-  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-</div>
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
@@ -37,6 +37,16 @@
 - Build real projects and a portfolio to boost my career  
 - Share knowledge and collaborate in open source communities
 
+---
+
+<div align="center">
+  <sub>Crafted with passion and vision for the future. &nbsp;✨</sub>
+</div>
+
+## 🏆 GitHub Trophies
+
+![trophy](https://github-profile-trophy.vercel.app/?username=GLBonfim&theme=gruvbox)
+> “The best way to learn is by building.” – Guilherme Bonfim 🚀
 ---
 
 ## 📫 Contact
@@ -58,14 +68,3 @@
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </div>
-
----
-
-<div align="center">
-  <sub>Crafted with passion and vision for the future. &nbsp;✨</sub>
-</div>
-
-## 🏆 GitHub Trophies
-
-![trophy](https://github-profile-trophy.vercel.app/?username=GLBonfim&theme=gruvbox)
-> “The best way to learn is by building.” – Guilherme Bonfim 🚀
