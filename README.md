@@ -1,7 +1,7 @@
 # 👋 Hi there, I'm Guilherme Bonfim
 
 💡 Java development student focused on backend  
-📚 Currently learning Java, Spring Boot, and Databases  
+📚 Currently learning Java, Spring Boot, and Databases   
 💼 Looking for my first opportunity as a Junior Java Developer  
 <div align="center">
   <p>
